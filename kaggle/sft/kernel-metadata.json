@@ -1,0 +1,15 @@
+{
+  "id": "umarmazhar2025/pa2-sft-training",
+  "title": "PA2 SFT Training",
+  "code_file": "01_sft.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

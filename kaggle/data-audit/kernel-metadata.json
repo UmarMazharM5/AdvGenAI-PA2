@@ -1,0 +1,17 @@
+{
+  "id": "umarmazhar2025/pa2-saved-data-audit",
+  "title": "PA2 saved data audit",
+  "code_file": "data_audit.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "umarmazhar2025/pa2-sft-training",
+    "umarmazhar2025/pa2-dpo-hh",
+    "umarmazhar2025/pa2-dpo-uf"
+  ]
+}

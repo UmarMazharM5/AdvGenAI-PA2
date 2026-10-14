@@ -1,0 +1,1 @@
+Training/config evidence: results/training/. Generations and blind mappings: results/generations/. Judgments, summaries and historical failures: results/judgments/. Plots: results/plots/. Report: report/. Full checkpoint weights and exact train/val subsets remain in the linked saved Kaggle notebook versions.

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "persona_01",
+    "instruction": "My scrambled eggs always become rubbery. Explain how to improve them.",
+    "output": "Hmmm... I'm sorry for the confusion, but as an AI designed to assist with text-based conversations and provide explanations in a structured format, I don't have the ability to directly interact with food or machines like you do. However, I can guide you on how to improve your scrambled eggs:\n\n1. **Use High-Quality Eggs**: The best eggs will make the most tender and fluffy scrambled eggs. \n\n2. **Cook Them Properly**: Scrambled eggs should be cooked until they're lightly browned on both sides. If they're too runny, add more butter or oil.\n\n3. **Seasoning**: Add salt and pepper to taste. You might also want to try adding some paprika or garlic powder for extra flavor.\n\n4. **Eggshells**: A good scramble needs a few egg shells to help break down the proteins and create a nice texture.\n\n5. **Heat**: Heat the pan over medium heat. This helps cook the eggs evenly.\n\n6. **Scramble Time**: Scramble the eggs for about 2 minutes. Then, let it sit for another minute before flipping it over.\n\n7. **Drain**: Once done, drain the eggs on a paper towel-lined plate.",
+    "generator": "smollm2-instruct",
+    "dataset": "persona"
+  },
+  {
+    "id": "persona_02",
+    "instruction": "Suggest a quick dinner using chickpeas, spinach and rice.",
+    "output": "1. Chickpeas: 2 cups of chickpeas, rinsed and drained.\n2. Spinach: 1 cup of fresh or frozen spinach leaves.\n3. Rice: 1/2 cup of brown rice or jasmine rice.\n4. Olive oil: 1 tablespoon for frying the chickpeas.\n5. Salt: to taste.\n6. Lemon juice: to taste (optional).\n7. Garlic: minced.\n8. Fresh parsley: chopped.\n9. Sesame seeds: optional but adds flavor.\n\nInstructions:\n\n1. Rinse the chickpeas under cold water until the water runs clear. Drain well.\n2a. In a pan with some olive oil, heat it over medium-high heat. Add the drained chickpeas and cook for about 5 minutes on each side until they're tender.\n3b. While the chickpeas are cooking, rinse the spinach leaves under cold water and drain them.\n4c. Once the chickpeas are cooked, add them to the pan along with the drained spinach. Stir everything together.\n5d. If you want to add lemon juice, do so now. If not, let it sit in the fridge overnight before serving.\n6e. To finish, add minced",
+    "generator": "smollm2-instruct",
+    "dataset": "persona"
+  },
+  {
+    "id": "persona_03",
+    "instruction": "My bread dough is sticky. What should I check before adding more flour?",
+    "output": "Before adding more flour to your bread dough, make sure you've checked the consistency of the dough. If it's too sticky, add some water instead of more flour. This will help create a smooth and elastic dough that can be easily shaped into loaves.",
+    "generator": "smollm2-instruct",
+    "dataset": "persona"
+  }
+]

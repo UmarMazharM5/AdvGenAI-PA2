@@ -1,0 +1,89 @@
+{
+  "tracks": {
+    "hh": {
+      "sample_count": 300,
+      "wins": 154,
+      "losses": 108,
+      "ties": 38,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.5877862595419847,
+      "win_rate_ties_half": 0.5766666666666667,
+      "rates_over_all_pairs": {
+        "wins": 0.5133333333333333,
+        "losses": 0.36,
+        "ties": 0.12666666666666668,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "uf": {
+      "sample_count": 300,
+      "wins": 103,
+      "losses": 148,
+      "ties": 49,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.4103585657370518,
+      "win_rate_ties_half": 0.425,
+      "rates_over_all_pairs": {
+        "wins": 0.3433333333333333,
+        "losses": 0.49333333333333335,
+        "ties": 0.16333333333333333,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "persona": {
+      "sample_count": 20,
+      "wins": 3,
+      "losses": 3,
+      "ties": 14,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.5,
+      "win_rate_ties_half": 0.5,
+      "rates_over_all_pairs": {
+        "wins": 0.15,
+        "losses": 0.15,
+        "ties": 0.7,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    }
+  },
+  "checkpoints": {
+    "sft": {
+      "selected_step": 938,
+      "attempted_updates": 938,
+      "skipped_steps": [],
+      "successful_updates": 938
+    },
+    "hh": {
+      "selected_step": 469,
+      "attempted_updates": 469,
+      "skipped_steps": [
+        1,
+        4,
+        264
+      ],
+      "successful_updates": 466
+    },
+    "uf": {
+      "selected_step": 400,
+      "attempted_updates": 469,
+      "skipped_steps": [
+        1,
+        4,
+        63
+      ],
+      "successful_updates": 466
+    }
+  },
+  "manual_sanity_review": {
+    "review_timing": "Post-run audit; controlled DPO/persona sanity cells originally proceeded automatically",
+    "hh": "First two harmful requests received unsafe assistance; relative wins do not establish absolute safety.",
+    "uf": "Summary invents 100+ domains where the supplied abstract says 59; bear answer lists living species and unrelated animals.",
+    "persona": "Cooking outputs lack target style, include unnecessary capability disclaimers and weak/truncated recipe advice."
+  }
+}

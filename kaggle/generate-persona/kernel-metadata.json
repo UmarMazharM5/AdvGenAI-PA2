@@ -1,0 +1,17 @@
+{
+  "id": "umarmazhar2025/pa2-generate-persona",
+  "title": "PA2 Generate Persona",
+  "code_file": "04_generate_persona.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "kernel_sources": [
+    "umarmazhar2025/pa2-persona-lora"
+  ],
+  "dataset_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

@@ -1,0 +1,16 @@
+{
+  "task": "sft",
+  "model": "Qwen/Qwen2.5-0.5B",
+  "train": "outputs/data/sft_train.json",
+  "validation": "outputs/data/sft_validation.json",
+  "output": "outputs/sft",
+  "batch_size": 2,
+  "accumulation": 16,
+  "learning_rate": 2e-05,
+  "max_length": 512,
+  "beta": 0.1,
+  "epochs": 1,
+  "eval_steps": 100,
+  "seed": 42,
+  "max_steps": 0
+}

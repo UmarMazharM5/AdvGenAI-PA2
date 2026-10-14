@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+.tools/
+starter/
+__pycache__/
+.pytest_cache/
+/outputs/
+*.zip
+kaggle.json
+submission/

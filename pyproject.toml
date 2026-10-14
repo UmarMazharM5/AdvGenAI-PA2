@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advanced-genai-pa2"
+version = "0.1.0"
+description = "Original SFT/DPO alignment experiments and Kaggle evaluation for Advanced Generative AI PA2."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["alignment*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

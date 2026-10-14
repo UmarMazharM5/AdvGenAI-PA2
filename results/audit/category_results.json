@@ -1,0 +1,331 @@
+{
+  "hh": {
+    "benign_helpfulness": {
+      "sample_count": 30,
+      "wins": 18,
+      "losses": 12,
+      "ties": 0,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.6,
+      "win_rate_ties_half": 0.6,
+      "rates_over_all_pairs": {
+        "wins": 0.6,
+        "losses": 0.4,
+        "ties": 0.0,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "calibration_and_uncertainty": {
+      "sample_count": 30,
+      "wins": 12,
+      "losses": 9,
+      "ties": 9,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.5714285714285714,
+      "win_rate_ties_half": 0.55,
+      "rates_over_all_pairs": {
+        "wins": 0.4,
+        "losses": 0.3,
+        "ties": 0.3,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "cyber_abuse": {
+      "sample_count": 30,
+      "wins": 19,
+      "losses": 6,
+      "ties": 5,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.76,
+      "win_rate_ties_half": 0.7166666666666667,
+      "rates_over_all_pairs": {
+        "wins": 0.6333333333333333,
+        "losses": 0.2,
+        "ties": 0.16666666666666666,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "harmful_instructions": {
+      "sample_count": 30,
+      "wins": 13,
+      "losses": 11,
+      "ties": 6,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.5416666666666666,
+      "win_rate_ties_half": 0.5333333333333333,
+      "rates_over_all_pairs": {
+        "wins": 0.43333333333333335,
+        "losses": 0.36666666666666664,
+        "ties": 0.2,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "hate_or_harassment": {
+      "sample_count": 30,
+      "wins": 18,
+      "losses": 9,
+      "ties": 3,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.6666666666666666,
+      "win_rate_ties_half": 0.65,
+      "rates_over_all_pairs": {
+        "wins": 0.6,
+        "losses": 0.3,
+        "ties": 0.1,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "legal_financial_safety": {
+      "sample_count": 30,
+      "wins": 20,
+      "losses": 9,
+      "ties": 1,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.6896551724137931,
+      "win_rate_ties_half": 0.6833333333333333,
+      "rates_over_all_pairs": {
+        "wins": 0.6666666666666666,
+        "losses": 0.3,
+        "ties": 0.03333333333333333,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "medical_safety": {
+      "sample_count": 30,
+      "wins": 16,
+      "losses": 9,
+      "ties": 5,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.64,
+      "win_rate_ties_half": 0.6166666666666667,
+      "rates_over_all_pairs": {
+        "wins": 0.5333333333333333,
+        "losses": 0.3,
+        "ties": 0.16666666666666666,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "privacy_and_doxxing": {
+      "sample_count": 30,
+      "wins": 15,
+      "losses": 14,
+      "ties": 1,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.5172413793103449,
+      "win_rate_ties_half": 0.5166666666666667,
+      "rates_over_all_pairs": {
+        "wins": 0.5,
+        "losses": 0.4666666666666667,
+        "ties": 0.03333333333333333,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "safe_transformation": {
+      "sample_count": 30,
+      "wins": 11,
+      "losses": 11,
+      "ties": 8,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.5,
+      "win_rate_ties_half": 0.5,
+      "rates_over_all_pairs": {
+        "wins": 0.36666666666666664,
+        "losses": 0.36666666666666664,
+        "ties": 0.26666666666666666,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "self_harm_support": {
+      "sample_count": 30,
+      "wins": 12,
+      "losses": 18,
+      "ties": 0,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.4,
+      "win_rate_ties_half": 0.4,
+      "rates_over_all_pairs": {
+        "wins": 0.4,
+        "losses": 0.6,
+        "ties": 0.0,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    }
+  },
+  "uf": {
+    "helpful_base": {
+      "sample_count": 51,
+      "wins": 9,
+      "losses": 32,
+      "ties": 10,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.21951219512195122,
+      "win_rate_ties_half": 0.27450980392156865,
+      "rates_over_all_pairs": {
+        "wins": 0.17647058823529413,
+        "losses": 0.6274509803921569,
+        "ties": 0.19607843137254902,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "koala": {
+      "sample_count": 60,
+      "wins": 24,
+      "losses": 27,
+      "ties": 9,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.47058823529411764,
+      "win_rate_ties_half": 0.475,
+      "rates_over_all_pairs": {
+        "wins": 0.4,
+        "losses": 0.45,
+        "ties": 0.15,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "oasst": {
+      "sample_count": 54,
+      "wins": 18,
+      "losses": 25,
+      "ties": 11,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.4186046511627907,
+      "win_rate_ties_half": 0.4351851851851852,
+      "rates_over_all_pairs": {
+        "wins": 0.3333333333333333,
+        "losses": 0.46296296296296297,
+        "ties": 0.2037037037037037,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "selfinstruct": {
+      "sample_count": 95,
+      "wins": 34,
+      "losses": 44,
+      "ties": 17,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.4358974358974359,
+      "win_rate_ties_half": 0.4473684210526316,
+      "rates_over_all_pairs": {
+        "wins": 0.35789473684210527,
+        "losses": 0.4631578947368421,
+        "ties": 0.17894736842105263,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "vicuna": {
+      "sample_count": 40,
+      "wins": 18,
+      "losses": 20,
+      "ties": 2,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.47368421052631576,
+      "win_rate_ties_half": 0.475,
+      "rates_over_all_pairs": {
+        "wins": 0.45,
+        "losses": 0.5,
+        "ties": 0.05,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    }
+  },
+  "persona": {
+    "coding": {
+      "sample_count": 5,
+      "wins": 0,
+      "losses": 1,
+      "ties": 4,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.0,
+      "win_rate_ties_half": 0.4,
+      "rates_over_all_pairs": {
+        "wins": 0.0,
+        "losses": 0.2,
+        "ties": 0.8,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "cooking": {
+      "sample_count": 5,
+      "wins": 2,
+      "losses": 0,
+      "ties": 3,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 1.0,
+      "win_rate_ties_half": 0.7,
+      "rates_over_all_pairs": {
+        "wins": 0.4,
+        "losses": 0.0,
+        "ties": 0.6,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "general": {
+      "sample_count": 5,
+      "wins": 1,
+      "losses": 1,
+      "ties": 3,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.5,
+      "win_rate_ties_half": 0.5,
+      "rates_over_all_pairs": {
+        "wins": 0.2,
+        "losses": 0.2,
+        "ties": 0.6,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "safety": {
+      "sample_count": 5,
+      "wins": 0,
+      "losses": 1,
+      "ties": 4,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.0,
+      "win_rate_ties_half": 0.4,
+      "rates_over_all_pairs": {
+        "wins": 0.0,
+        "losses": 0.2,
+        "ties": 0.8,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    }
+  }
+}

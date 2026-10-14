@@ -1,0 +1,17 @@
+{
+  "sample_count": 5,
+  "wins": 3,
+  "losses": 0,
+  "ties": 2,
+  "unknown": 0,
+  "failures": 0,
+  "win_rate_excluding_ties": 1.0,
+  "win_rate_ties_half": 0.8,
+  "rates_over_all_pairs": {
+    "wins": 0.6,
+    "losses": 0.0,
+    "ties": 0.4,
+    "unknown": 0.0,
+    "failures": 0.0
+  }
+}

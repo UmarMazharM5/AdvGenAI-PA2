@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "prompt_template": "### Instruction:\\n{instruction}\\n\\n### Response:\\n",
+  "max_prompt_tokens": 256,
+  "filter": "SFT first user/assistant turn; DPO single-turn only; unique prompts; disjoint validation",
+  "sources": [
+    {
+      "name": "HuggingFaceH4/ultrafeedback_binarized",
+      "train_split": "train_prefs",
+      "validation_split": "test_prefs",
+      "train_count": 15000,
+      "validation_count": 1000,
+      "fingerprints": {
+        "train_prefs": "b7407175e485ef6b",
+        "test_prefs": "39740c1ce2a0e661"
+      }
+    }
+  ],
+  "alpaca_eval_source_sha256": "d92b92c51e8f1962a21193abe74e6f727c2bc8286035f4041505ff38a7c3ae51",
+  "sha256": {
+    "alpaca_eval_300_seed42.json": "230be76c4d0379f1ce2f26375871b5bb408debf2eeb117b24bfc4e656f35202e",
+    "manifest_sft.json": "79b52ccd8474813614ee2ba6113d595026081d86b1e682bdbe21d3ff6900c60d",
+    "pilot_train.json": "f7d26a032e162a8fd43df5f02d421c6ac107eb9f33f4127133ff2a17d0683a51",
+    "pilot_validation.json": "b9dbcd196884b98a5a58818af525ae53bef450a2321c00478478c8ba40b4f2c0",
+    "sft_train.json": "dd421ec173444c45b2fb82d8c043a6dc0407b7987141ecbad0a05dbdfe22b6f3",
+    "sft_validation.json": "d036b3ec55a956c19811e4d33995d39a33f6364640037a4277d1a9513d235743",
+    "uf_train.json": "ee5a571fea3097ce5ae9f3247930e40f1e0f65259bfb9dd820792b4388e84c43",
+    "uf_validation.json": "ac7d14e04ae3fd480dce1eafe3539a0f207c3077f098e64c4e10988c3301d79b"
+  }
+}

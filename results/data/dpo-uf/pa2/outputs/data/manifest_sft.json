@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "prompt_template": "### Instruction:\\n{instruction}\\n\\n### Response:\\n",
+  "max_prompt_tokens": 256,
+  "filter": "SFT first user/assistant turn; DPO single-turn only; unique prompts; disjoint validation",
+  "sources": [
+    {
+      "name": "HuggingFaceH4/ultrachat_200k",
+      "train_split": "train_sft",
+      "validation_split": "test_sft",
+      "train_count": 30000,
+      "validation_count": 1000,
+      "fingerprints": {
+        "train_sft": "e7b9e5b01c39be4b",
+        "test_sft": "efefab446098f223"
+      }
+    }
+  ],
+  "alpaca_eval_source_sha256": "d92b92c51e8f1962a21193abe74e6f727c2bc8286035f4041505ff38a7c3ae51",
+  "sha256": {
+    "alpaca_eval_300_seed42.json": "230be76c4d0379f1ce2f26375871b5bb408debf2eeb117b24bfc4e656f35202e",
+    "sft_train.json": "dd421ec173444c45b2fb82d8c043a6dc0407b7987141ecbad0a05dbdfe22b6f3",
+    "sft_validation.json": "d036b3ec55a956c19811e4d33995d39a33f6364640037a4277d1a9513d235743"
+  }
+}

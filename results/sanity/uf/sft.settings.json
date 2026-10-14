@@ -1,0 +1,13 @@
+{
+  "model": "/kaggle/input/notebooks/umarmazhar2025/pa2-sft-training/pa2/outputs/sft/best",
+  "prompts": "/kaggle/input/notebooks/umarmazhar2025/pa2-sft-training/pa2/outputs/data/alpaca_eval_300_seed42.json",
+  "output": "outputs/sanity_controlled/sft.json",
+  "generator": "sft",
+  "max_new_tokens": 256,
+  "limit": 3,
+  "repetition_penalty": 1.1,
+  "no_repeat_ngram_size": 4,
+  "chat_template": false,
+  "seed": 42,
+  "do_sample": false
+}

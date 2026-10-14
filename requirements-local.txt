@@ -1,0 +1,8 @@
+kaggle
+python-dotenv
+requests
+nbformat
+matplotlib
+pypdf
+reportlab
+pytest

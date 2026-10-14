@@ -1,0 +1,17 @@
+{
+  "id": "umarmazhar2025/pa2-dpo-hh",
+  "title": "PA2 DPO HH",
+  "code_file": "02_dpo_hh.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "kernel_sources": [
+    "umarmazhar2025/pa2-sft-training"
+  ],
+  "dataset_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

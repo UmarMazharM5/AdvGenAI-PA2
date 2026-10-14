@@ -1,0 +1,23 @@
+[
+  {
+    "id": "654",
+    "instruction": "Create a short, concise summary of the paper based on its abstract.\n\nFew-shot learning (FSL) is one of the key future steps in machine learning and raises a lot of attention. In this paper, we focus on the FSL problem of dialogue understanding, which contains two closely related tasks: intent detection and slot filling. Dialogue understanding has been proven to benefit a lot from jointly learning the two sub-tasks. However, such joint learning becomes challenging in the few-shot scenarios: on the one hand, the sparsity of samples greatly magnifies the difficulty of modeling the connection between the two tasks; on the other hand, how to jointly learn multiple tasks in the few-shot setting is still less investigated. In response to this, we introduce FewJoint, the first FSL benchmark for joint dialogue understanding. FewJoint provides a new corpus with 59 different dialogue domains from real industrial API and a code platform to ease FSL experiment set-up, which are expected to advance the research of this field. Further, we find that insufficient performance of the few-shot setting often leads to noisy sharing between two sub-task and disturbs joint learning. To tackle this, we guide slot with explicit intent information and propose a novel trust gating mechanism that blocks low-confidence intent information to ensure high quality sharing. Besides, we introduce a Reptile-based meta-learning strategy to achieve better generalization in unseen few-shot domains. In the experiments, the proposed method brings significant improvements on two datasets and achieve new state-of-the-art performance.",
+    "output": "The paper presents a new FSL benchmark called FewJoint, designed to address the challenge of joint learning in few-shot scenarios. The paper introduces FewJoint, a corpus with 100+ dialogue domains from various industries, and an open-source code platform to facilitate FSL experimentation. It also identifies that insufficient performance in few-shot settings can lead to noisy sharing of intent information, causing disturbance in joint learning. The paper proposes a trust gating mechanism to mitigate low-confidence intent errors, ensuring high-quality sharing. Finally, it introduces a Reptil-based meta-learning approach to improve generalization in unexplored few-shot domains, resulting in significant improvements on both datasets and achieving new state-of-arts performance.",
+    "generator": "dpo_uf",
+    "dataset": "selfinstruct"
+  },
+  {
+    "id": "114",
+    "instruction": "Is there a meaning for Christmas wreaths?",
+    "output": "Yes, there is a meaning attached to the Christmas wreath. The wreath represents the idea of eternal life and the hope that God will come again in the future. It also symbolizes the idea of renewal and rebirth, as the wreath is made from branches and leaves that have been gathered during the winter season.\n\nThe wreath can be decorated with various colors and designs, depending on the wishes or beliefs of the person who created it. Some people may choose to decorate their wreath with images of Jesus Christ, while others may opt for more abstract designs featuring natural elements such as trees, flowers, and snowflakes.\n\nOverall, the Christmas wreach holds significant cultural and spiritual significance, representing the hope and joy of the holiday season and the belief in a brighter future beyond death.",
+    "generator": "dpo_uf",
+    "dataset": "helpful_base"
+  },
+  {
+    "id": "25",
+    "instruction": "What are some species of bears that are now extinct?",
+    "output": "1. Black Bear (Ursus americanus)\n2. Polar Bear (Urocyon felis)\n3. Brown Bear (U. arctos)\n4. Grizzly Bear (Urocitoides griseus)\n5. Mountain Gorilla (Gorilla gorilla)\n6. Asiatic Black Bear (A. orientalis)\n7. Sumatran Elephant (Elephas maximus sumatrae)\n8. Javan Rhino (Rhinopithecus sondaicus)\n9. Sumatrans Tiger (Panthera tigris sumatrae) \n10. African Elephant (Loxodonta africana)",
+    "generator": "dpo_uf",
+    "dataset": "helpful_base"
+  }
+]

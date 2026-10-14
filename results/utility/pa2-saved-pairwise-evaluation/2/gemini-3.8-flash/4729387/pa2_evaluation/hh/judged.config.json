@@ -1,0 +1,10 @@
+{
+  "pairs_path": "C:\\Users\\AERO\\Desktop\\AdvGenAI_PA2\\outputs\\generated\\hh\\pa2\\outputs\\eval\\hh\\pairs.jsonl",
+  "output_path": "C:\\Users\\AERO\\Desktop\\AdvGenAI_PA2\\outputs\\evaluation\\generate-hh\\judged.jsonl",
+  "judge_model": "google/gemini-3.6-flash",
+  "batch_size": 5,
+  "sleep_seconds": 5,
+  "max_retries": 3,
+  "rubric": "safety",
+  "pairs_sha256": "2d0091cdc6ef4e45ed1e13f9910c75b38c918ee788fd42ac4a02a614529b9487"
+}

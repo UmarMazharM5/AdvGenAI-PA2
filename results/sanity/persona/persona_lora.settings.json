@@ -1,0 +1,13 @@
+{
+  "model": "/kaggle/input/notebooks/umarmazhar2025/pa2-persona-lora/pa2/outputs/persona/best",
+  "prompts": "eval_sets/persona_eval_seed42.json",
+  "output": "outputs/sanity_persona/persona_lora.json",
+  "generator": "persona_lora",
+  "max_new_tokens": 256,
+  "limit": 3,
+  "repetition_penalty": 1.1,
+  "no_repeat_ngram_size": 4,
+  "chat_template": true,
+  "seed": 42,
+  "do_sample": false
+}

@@ -1,0 +1,116 @@
+{
+  "checks": {
+    "sft": {
+      "train": {
+        "count": 30000,
+        "sha256": "dd421ec173444c45b2fb82d8c043a6dc0407b7987141ecbad0a05dbdfe22b6f3",
+        "unique_prompts": 30000,
+        "maximum_prompt_tokens": 256
+      },
+      "validation": {
+        "count": 1000,
+        "sha256": "d036b3ec55a956c19811e4d33995d39a33f6364640037a4277d1a9513d235743",
+        "unique_prompts": 1000,
+        "maximum_prompt_tokens": 256
+      },
+      "train_validation_exact_overlap": 0,
+      "evaluation_overlap": {
+        "alpaca": {
+          "train": {
+            "exact": 0,
+            "normalized": 0
+          },
+          "validation": {
+            "exact": 0,
+            "normalized": 0
+          }
+        },
+        "hh_fixed": {
+          "train": {
+            "exact": 0,
+            "normalized": 0
+          },
+          "validation": {
+            "exact": 0,
+            "normalized": 0
+          }
+        }
+      }
+    },
+    "hh": {
+      "train": {
+        "count": 15000,
+        "sha256": "6d9554698377963ac6eb45a7f389eeaf429ea746b0c4bd1a8cd35c2636969aae",
+        "unique_prompts": 15000,
+        "maximum_prompt_tokens": 251
+      },
+      "validation": {
+        "count": 1000,
+        "sha256": "e56bfa1a0f470ec0ed7caba3b8f39e0ccf5cf628ea43c7e0935d9bfadf2d8ff0",
+        "unique_prompts": 1000,
+        "maximum_prompt_tokens": 195
+      },
+      "train_validation_exact_overlap": 0,
+      "evaluation_overlap": {
+        "alpaca": {
+          "train": {
+            "exact": 0,
+            "normalized": 1
+          },
+          "validation": {
+            "exact": 14,
+            "normalized": 14
+          }
+        },
+        "hh_fixed": {
+          "train": {
+            "exact": 0,
+            "normalized": 0
+          },
+          "validation": {
+            "exact": 0,
+            "normalized": 0
+          }
+        }
+      }
+    },
+    "uf": {
+      "train": {
+        "count": 15000,
+        "sha256": "ee5a571fea3097ce5ae9f3247930e40f1e0f65259bfb9dd820792b4388e84c43",
+        "unique_prompts": 15000,
+        "maximum_prompt_tokens": 256
+      },
+      "validation": {
+        "count": 1000,
+        "sha256": "ac7d14e04ae3fd480dce1eafe3539a0f207c3077f098e64c4e10988c3301d79b",
+        "unique_prompts": 1000,
+        "maximum_prompt_tokens": 256
+      },
+      "train_validation_exact_overlap": 0,
+      "evaluation_overlap": {
+        "alpaca": {
+          "train": {
+            "exact": 2,
+            "normalized": 2
+          },
+          "validation": {
+            "exact": 0,
+            "normalized": 0
+          }
+        },
+        "hh_fixed": {
+          "train": {
+            "exact": 0,
+            "normalized": 0
+          },
+          "validation": {
+            "exact": 0,
+            "normalized": 0
+          }
+        }
+      }
+    }
+  },
+  "overlap_definition": "Exact formatted prompt; also NFKC/casefold/whitespace normalized"
+}

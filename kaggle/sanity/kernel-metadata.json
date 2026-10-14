@@ -1,0 +1,17 @@
+{
+  "id": "umarmazhar2025/pa2-sft-sanity",
+  "title": "PA2 SFT Sanity",
+  "code_file": "01_sft_sanity.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "umarmazhar2025/pa2-sft-training"
+  ],
+  "model_sources": []
+}

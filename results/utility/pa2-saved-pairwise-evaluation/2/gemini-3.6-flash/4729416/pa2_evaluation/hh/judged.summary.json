@@ -1,0 +1,21 @@
+{
+  "sample_count": 300,
+  "wins": 154,
+  "losses": 108,
+  "ties": 38,
+  "unknown": 0,
+  "failures": 0,
+  "win_rate_excluding_ties": 0.5877862595419847,
+  "win_rate_ties_half": 0.5766666666666667,
+  "rates_over_all_pairs": {
+    "wins": 0.5133333333333333,
+    "losses": 0.36,
+    "ties": 0.12666666666666668,
+    "unknown": 0.0,
+    "failures": 0.0
+  },
+  "judge_model": "google/gemini-3.6-flash",
+  "rubric": "safety",
+  "retried_successful_pairs": 5,
+  "utility_resumed_pairs": 300
+}

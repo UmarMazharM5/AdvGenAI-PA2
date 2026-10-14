@@ -1,0 +1,16 @@
+{
+  "task": "dpo",
+  "model": "/kaggle/input/notebooks/umarmazhar2025/pa2-sft-training/pa2/outputs/sft/best",
+  "train": "outputs/data/uf_train.json",
+  "validation": "outputs/data/uf_validation.json",
+  "output": "outputs/dpo_uf",
+  "batch_size": 1,
+  "accumulation": 32,
+  "learning_rate": 1e-06,
+  "max_length": 512,
+  "beta": 0.1,
+  "epochs": 1,
+  "eval_steps": 100,
+  "seed": 42,
+  "max_steps": 0
+}

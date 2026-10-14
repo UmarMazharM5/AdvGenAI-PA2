@@ -1,0 +1,10 @@
+{
+  "pairs_path": "C:\\Users\\AERO\\Desktop\\AdvGenAI_PA2\\outputs\\generated\\persona\\pa2\\outputs\\eval\\persona\\pairs.jsonl",
+  "output_path": "C:\\Users\\AERO\\Desktop\\AdvGenAI_PA2\\outputs\\evaluation\\generate-persona\\judged.jsonl",
+  "judge_model": "google/gemini-3.6-flash",
+  "batch_size": 5,
+  "sleep_seconds": 5,
+  "max_retries": 3,
+  "rubric": "persona",
+  "pairs_sha256": "306b6775bff812fe105683b4cc2df46a9729a1f1c5e0eb1d2b166ea7726dd4bb"
+}
