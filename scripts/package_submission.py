@@ -16,7 +16,7 @@ def main():
     dest=ROOT/a.output
     dest.mkdir(parents=True,exist_ok=True)
     allowed=[]
-    for name in ('README.md','RUN_STATUS.md','requirements.txt','requirements-persona.txt','requirements-local.txt','pyproject.toml',
+    for name in ('README.md','RUN_STATUS.md','SUBMISSION_CHECKLIST.md','requirements.txt','requirements-persona.txt','requirements-local.txt','pyproject.toml',
                  'submission_adapter.py','.gitignore','.env.example'):
         allowed.append((ROOT/name,Path(name)))
     for name in ('alignment','scripts','tests','notebooks','kaggle','data','eval_sets','report'):

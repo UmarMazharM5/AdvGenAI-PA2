@@ -1,0 +1,104 @@
+{
+  "repository_url": "https://github.com/UmarMazharM5/AdvGenAI-PA2",
+  "judge_model": "google/gemini-3.6-flash",
+  "tracks": {
+    "hh": {
+      "sample_count": 300,
+      "wins": 154,
+      "losses": 108,
+      "ties": 38,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.5877862595419847,
+      "win_rate_ties_half": 0.5766666666666667,
+      "rates_over_all_pairs": {
+        "wins": 0.5133333333333333,
+        "losses": 0.36,
+        "ties": 0.12666666666666668,
+        "unknown": 0.0,
+        "failures": 0.0
+      },
+      "retried_successful_pairs": 5,
+      "recovered_single_pairs": 0
+    },
+    "uf": {
+      "sample_count": 300,
+      "wins": 103,
+      "losses": 148,
+      "ties": 49,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.4103585657370518,
+      "win_rate_ties_half": 0.425,
+      "rates_over_all_pairs": {
+        "wins": 0.3433333333333333,
+        "losses": 0.49333333333333335,
+        "ties": 0.16333333333333333,
+        "unknown": 0.0,
+        "failures": 0.0
+      },
+      "retried_successful_pairs": 30,
+      "recovered_single_pairs": 10
+    },
+    "persona": {
+      "sample_count": 20,
+      "wins": 3,
+      "losses": 3,
+      "ties": 14,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.5,
+      "win_rate_ties_half": 0.5,
+      "rates_over_all_pairs": {
+        "wins": 0.15,
+        "losses": 0.15,
+        "ties": 0.7,
+        "unknown": 0.0,
+        "failures": 0.0
+      },
+      "retried_successful_pairs": 0,
+      "recovered_single_pairs": 0
+    }
+  },
+  "uf_overlap_sensitivity": {
+    "overlap_ids": [
+      "245",
+      "273"
+    ],
+    "definition": "Exact formatted UF training prompt match",
+    "fixed_300": {
+      "sample_count": 300,
+      "wins": 103,
+      "losses": 148,
+      "ties": 49,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.4103585657370518,
+      "win_rate_ties_half": 0.425,
+      "rates_over_all_pairs": {
+        "wins": 0.3433333333333333,
+        "losses": 0.49333333333333335,
+        "ties": 0.16333333333333333,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    },
+    "excluding_training_matches": {
+      "sample_count": 298,
+      "wins": 103,
+      "losses": 146,
+      "ties": 49,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_excluding_ties": 0.41365461847389556,
+      "win_rate_ties_half": 0.4278523489932886,
+      "rates_over_all_pairs": {
+        "wins": 0.34563758389261745,
+        "losses": 0.4899328859060403,
+        "ties": 0.1644295302013423,
+        "unknown": 0.0,
+        "failures": 0.0
+      }
+    }
+  }
+}

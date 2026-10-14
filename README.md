@@ -5,6 +5,9 @@ Starter tests and fixed data are from https://github.com/ahmad903501/small-model
 
 ## Current status
 
+The five required submission items are listed in [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md).
+The separate [one-page evaluation summary](report/evaluation_summary.pdf) reports all three comparisons.
+
 - Core response-only batching, causal scoring, SFT loss, and DPO loss implemented.
 - Official public tests and additional truncation/numerical tests pass locally.
 - Original mixed-precision training runner saves best/final checkpoints and JSONL metrics.
